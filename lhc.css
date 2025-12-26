@@ -1,0 +1,23 @@
+h1{
+    font-size: 100px;
+    color: rgb(128, 131, 170);
+    font-style: italic;
+    text-align: center;
+}
+p{
+    font-size: 80px;
+    font-style: oblique;
+    color: rgb(169, 202, 222);
+    text-align: center;
+}
+body{
+    background-image: url("images/b3.jfif");
+    background-size: cover;
+}
+button{
+    font-size: 80px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-style: oblique;
+}

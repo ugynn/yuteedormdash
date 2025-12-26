@@ -1,0 +1,40 @@
+h2{
+    color: rgb(0, 18, 91);
+    font-size: 100px;
+    font-style: oblique;
+    font-display: fallback;
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: 10px;
+}
+label{
+    color: rgba(82, 143, 255, 0.557);
+    font-size: 50px;
+}
+body{
+    background-image: url(images/b5.jfif);
+    background-size: cover;
+}
+/* Make the body take up the full height of the screen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh; /* 100% of the viewport height */
+    
+    /* Center everything using Flexbox */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center;    /* Center horizontally */
+}
+
+/* Optional: Add a bit of styling to the form for a cleaner look */
+form {
+    text-align: left; /* Keep labels aligned to the left inside the centered form */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+button{
+    font-size: 35px;
+}

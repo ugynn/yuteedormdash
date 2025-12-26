@@ -1,0 +1,65 @@
+/* 1. Use a consistent class name (no space) */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* This replaces "float: right" */
+    gap: 30px;
+    padding: 20px;
+    background-color: beige;
+}
+
+/* 2. Target the links inside the navbar */
+.navbar a {
+    padding: 10px 20px; /* Reduced padding; 40px 40px is very large */
+    color: blue; /* Changed from aliceblue for better visibility on bisque */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: block;
+    margin: auto;
+}
+
+/* 3. Ensure the hover selector matches the class name */
+.navbar a:hover {
+    background-color: blue;
+    color: white;
+}
+h1{
+    color: rgba(1, 5, 69, 0.273);
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+}
+body {
+    background-color: rgb(141, 171, 255);
+    font-style: oblique;
+    font-display: fallback;
+}
+p{
+    font-size: 67px;
+    font-style: oblique;
+    font-display: block;
+    text-align: center;
+}
+a{
+   text-align: start;
+    color: rgb(115, 195, 241);
+    text-decoration: wavy;
+    font-size: 55px;
+    font-display: block;
+    text-align: end;
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 300%;
+}
+body{
+    background-image: url("images/blue.jfif");
+    background-size: cover;
+}
+iframe{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
